@@ -1,0 +1,15 @@
+.alert {
+	border: 3px solid orange;
+	border-radius: 5px;
+	padding: 5px;
+	font-size: 18px;
+	color: #0000b3;
+	position: fixed;
+	margin-left:250px;
+	background-color:#fff;
+}
+.close {
+	text-decoration: none;
+	color: #999;
+	font-size: 20px;
+}
