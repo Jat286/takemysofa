@@ -39,6 +39,12 @@ document.onkeyup = function(e) {
       }
 };
 
+document.onkeyup = function(e) {
+	  if (e.altKey && e.ctrlKey && e.which == 74) {
+          document.getElementById('credits').style.opacity = "100";
+      }
+};
+
 function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
@@ -125,7 +131,7 @@ function anotherOne() {
         </div>
 
         <div style="float:left;margin-left: 250px; text-align: center;">
-        	<p style="color: #0000b3; opacity: 0; float: right;"><strong>{JR}{EA} - Jomun Rights 1876 § NoCopy (Law 12123b) - Joh Fujita [Matthew Merrett] 2020</strong></p>
+        	<p style="color: #0000b3; opacity: 0; float: right;" id="credits"><strong>{JR}{EA} - Jomun Rights 1876 § NoCopy (Law 12123b) - Joh Fujita [Matthew Merrett] 2020</strong></p>
         	<h3 style="color: #0000b3;">- Credits -</h3>
         	<p>This website was coded by Me (Joh (aged 10)) for my Uncle Matt (wording done by Matt).</p>
         	<br/>
