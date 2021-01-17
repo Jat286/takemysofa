@@ -1,7 +1,7 @@
 /*fonts.google.com/Ubuntu*/
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 /*styles*/
-*{font-family:'Ubuntu',sans-serif;}h1{font-size:30px;color:#0000b3;}h2{font-size:35px;}/* width */
+*{font-family:'Ubuntu',sans-serif;}h3{font-size:30px;color:#0000b3;}h2{font-size:35px;}/* width */
 ::-webkit-scrollbar {
   width: 15px;
 }
